@@ -2,7 +2,7 @@
 (function InitMenu () {
 
         const menuHtml = `
-        <div class="ui top fixed menu">
+        <div class="ui top menu">
         <div class="item">
             <a href="index.html">
                 <img height="30" width="30" src="assets/images/js.png">
