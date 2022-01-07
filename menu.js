@@ -14,6 +14,7 @@ const logOut = () => {
   const email =
     localStorage.getItem("email") || sessionStorage.getItem("email");
   let logOutMenu = "";
+  let singInMenu = '<a class="item" href="login.html">Sign-in</a>';
 
   if (token != null && token != undefined) {
     authenticated = true;
